@@ -1,12 +1,11 @@
 {
-  "name": "node-hdiffpatch",
-  "version": "1.0.3",
+  "name": "yxt-node-hdiffpatch",
+  "version": "0.0.1",
   "description": "hdiffpatch port to node.js",
   "main": "index.js",
   "scripts": {
     "test": "node test/test.js",
-    "prepack": "git submodule update --init --recursive",
-    "postinstall": "git submodule update --init --recursive"
+    "prepack": "git submodule update --init --recursive"
   },
   "gypfile": true,
   "author": "housisong",
